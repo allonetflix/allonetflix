@@ -3,18 +3,11 @@ module.exports = {
 	name : "Allo Netflix - API",
 	port : process.env.PORT || 3000,
 	psql:{
-		// Heroku
-		user : "fmkoletitysdzj",
-		host : "ec2-107-21-103-146.compute-1.amazonaws.com",
-		database : "d4uga9bcq91l38",
-		password : "647d4450526e1ca89e8992040491ba9c4e19a4c744459c0b0e4eb5f18838959f",
+		user : "vbovwzdbyulopc",
+		host : "ec2-23-23-111-171.compute-1.amazonaws.com",
+		database : "d6gttpt5sqtul2",
+		password : "ae1dfaa002684133dab13a3fc010ff0dd8aed4ca60da4c0279ad81e741d04bee",
 		port : 5432
-		// localhost
-		// user : "postgres",
-		// host : "localhost",
-		// database : "dbtest",
-		// password : "postgres",
-		// port : 5432
 	},
 	secret: '25zqsfmjvbq$v2'
 }

@@ -10,7 +10,7 @@ module.exports.getDataArticles = (req, res) => {
         if(!listArticleFound){ return res.json({success: false, msg: "List Articles not found !"}); }
 
         res.json({
-            succes: true,
+            success: true,
             listArticle: listArticleFound
         });
     });
