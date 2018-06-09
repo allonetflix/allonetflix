@@ -4,7 +4,7 @@ const router        = express.Router();
 const articleController = require('../controllers/articleController');
 
 
-router.get('/dataArticles', // Article
+router.get('/dataArticles', // Get All Articles
     articleController.getDataArticles
 );
 

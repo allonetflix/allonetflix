@@ -4,6 +4,6 @@ module.exports.verifyBody = (requirements) => {
     	
         const missings = requirements.filter(requirement => !req.body[requirement]);
 
-        return (missings.length > 0) ? res.status(400).send({missings: missings}) : next();
+        return (missings.length > 0) ? res.status(400).send({success: false, msg: "Information manquante : " + missings}) : next();
     };
 };
